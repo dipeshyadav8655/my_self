@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGoG7GvUbUpUpHQHid0MubW-5K1Ekyn_4lQ&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    padding:  0% 2%;
+    margin: 2% 2%;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    border: 3px solid #ffffffd8;
+    border-radius: 10px;
+}
+/* ul{
+    float: left;
+} */
+li{
+    float: left;
+    padding: 0px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+}
+.logo{
+    float: right;
+    width: 50px;
+    padding: 0% 3% 0% 0%;
+}
+#contact{
+    float: right;
+    padding: 0% 2% 0% 0%;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+}
+.home, .about, .blog, .project, .skills{
+    text-decoration: none;
+    color: black ;
+    padding: 0px 8px;
+    border-radius: 2cm;
+}
+#container{
+    height: 80vh;
+    width: 100%;
+}
+.content{
+    padding-top: 20%;
+    padding-left: 10%;
+    float: left;
+    color: rgb(223, 25, 58);
+}
+
+/* .profile{
+float: right;
+/* padding-top: 10%;
+padding-right: 10%; */
+/* } */ 
+.frame{
+    clip-path: circle();
+}
+.profile img{
+    width: 24%;
+    float: right;
+    margin-right: 12%;
+    margin-top: 5%;
+}
+.button{
+
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+.resumepdf{
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+    padding: 5px 5px;
+    margin-top: 10px;
+    width:fit-content ;
+}
+a{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+a:hover{
+    background-color: #66f6f1;
+}
+button{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+button:hover{
+    background-color: #66f6f1;
+}

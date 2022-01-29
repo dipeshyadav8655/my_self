@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/8d/4e/17/8d4e17743cd519366c861b8db007284a.jpg);
+    /* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNGoG7GvUbUpUpHQHid0MubW-5K1Ekyn_4lQ&usqp=CAU */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    border: 5% solid black;
+    height: 100%;
+    width: 100%;
+}
+header{
+    padding: 0%;
+    margin: 0% 2%;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid #ffffffd8;
+}
+li{
+    float: left;
+    padding: 0px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none; 
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+}
+.logo{
+    float: right;
+    width: 50px;
+    padding: 0% 3% 0% 0%;
+}
+#contact{
+    float: right;
+    padding: 0% 2%;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    border-radius: 2cm;
+}
+.home, .about, .blog, .project, .skills{
+    text-decoration: none;
+    color: black ;
+    padding: 0px 8px;
+    border-radius: 2cm;
+}
+a{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+a:hover{
+    background-color: #66f6f1;
+}
+#contact{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+#contact:hover{
+    background-color: #66f6f1;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.profile .mypic{
+    width: 30%;
+    clip-path: circle();
+}
+.name{
+    text-align: center;
+    padding: 0% 10%;
+    font-family: 'Arvo', serif;
+}
+.info{
+    text-align: center;
+    padding: 0% 10%;
+    color: black;
+    font-family: 'Uchen', serif;
+    letter-spacing: 1px;
+}
+.discription{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.midle_block{
+    padding: 0%;
+    margin: 0% 2%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5FmNp6f-YBKL1x-3RiSK4KL-0SLCuClDBRGW0kfZtwtFjlM0TrZLsF1mlUU9m6m_8d-E&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+.midle_info{
+    text-align: center;
+    padding: 4% 10% 0% 10%;
+    margin: 2% 0%;
+    font-size: 30px;
+}
+.about_info{
+    padding: 3% 0%;
+}
+.last{
+    padding: -5% -5%;
+    margin: -5% 5%;
+    width :50%;
+    border: 10px solid black;
+}
+#test{
+    margin:0% 12%;
+    padding: -15% 0% -15% 0%;
+    text-align: center;
+    border: 3px solid wheat;
+    background-color:#0c9cf0c7;
+    border-radius: 15px;
+}
+.blog-project{
+    width: 100%;
+    height: 3vh;
+}
+.project-image{
+    background-image: url(https://previews.123rf.com/images/mazirama/mazirama1501/mazirama150100216/35507590-project-text-illustration-with-social-icons-and-tablet-computer-and-mobile-cellphones-on-cyan-digita.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 50px;
+    border-radius: 15px;
+}
+.project-table{
+    padding: 0% 5% 0% 5%;
+    margin: -10% 10%;
+    width:fit-content;
+    height: fit-content;
+}
+.myntra{
+    width: 35%;
+    height: fit-content;
+    float: left;
+    background-color: white;
+    padding: 30px 63px;
+    border-radius: 15px;
+}
+.dominos{
+    width: 35%;
+    height: fit-content;
+    float: right;
+    background-color: white;
+    padding: 30px 63px;
+    border-radius: 15px;
+}
+.porthfolio{
+    width: 35%;
+    float: left;
+    height: fit-content;
+    background-color: white;
+    padding: 30px 63px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.lost-found{
+    width: 35%;
+    float: right;
+    height: fit-content;
+    background-color: white;
+    padding: 30px 63px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.myntra, .dominos, .porthfolio, .lost-found{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+.myntra:hover, .porthfolio:hover, .lost-found:hover, .dominos:hover{
+    background-color: red;
+}
+.blank{
+    width: 100%;
+    height:  50vh;
+}
+.skills-image{
+    background-image: url(https://previews.123rf.com/images/artinspiring/artinspiring1801/artinspiring180101007/94403664-skills-concept-illustration-.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 50px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.skills-table{
+    padding: 0% 5% 0% 3%;
+    margin: -10% 0%;
+    width:fit-content;
+    height: fit-content;
+}
+.nameOfSkills td{
+    padding: 30px;
+    transition-property: background-color,color;
+    transition-duration: 0.5s;
+}
+.nameOfSkills td:hover{
+    background-color: red;
+}
+.nameStyle td{
+    padding: 0%;
+    text-align: center;
+    font-size: 30px;
+    font-variant: small-caps;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+.nameStyle td:hover{
+    color: red;
+}
+.contact-blank{
+        /* width: 100%; */
+        height:  60vh;
+        border: 5px solid yellow;
+}
+.contact{
+    border: 5px solid red;
+    margin-top: 30%;
+    background-color: black;
+    color: white;
+    width: 99%;
+    background-size: cover;
+}
+form{
+    padding-top: 50px;
+    float: left;    
+    line-height: 50px;
+    width: fit-content;
+}
+.social{
+    float: left;
+    /* align-content: center; */
+    /* padding-left: 400px; */
+    margin-top: 5px;
+}
+.instagram, .linkedin, .github{
+    clip-path: circle();
+    margin-left: 380px;
+}
+.insta, .linkedin .github{
+    margin-left: 340px;
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+input{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    border-radius: 2px;
+}
+label{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.submit{
+    margin-left: 80px;
+    text-align: center;
+    border:8px solid white;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
